@@ -1,0 +1,16 @@
+
+QPushButton#evilBtn {
+    background-color: red;
+    border-style: outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: beige;
+    font: bold 14px;
+    min-width: 50px;
+    padding: 6px;
+}
+
+QPushButton#evilBtn:pressed {
+    background-color: rgb(224, 0, 0);
+    border-style: inset;
+}
